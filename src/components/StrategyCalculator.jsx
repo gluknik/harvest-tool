@@ -13,7 +13,16 @@ export default function StrategyCalculator() {
   return (
     <>
       <h1 class="text-white">BNB Harvest Calculator Tool</h1>
-      <div class="desc text-white">description here</div>
+      <div class="desc text-white">
+        This tool will calculate your total harvest amount if you make interest
+        compound. There is an option to set a certain amount that you will put
+        aside from every harvest before you reinvest. Also you can imitate crash
+        (test your strategy in case of contacrt balance going to 0 after X
+        days). <br /> This is a BETA version. If you have a question - DM{' '}
+        <a href="https://t.me/rise_agggainst" class="underline" target="_blank">
+          @rise_agggainst
+        </a>
+      </div>
       <form
         class="calc"
         onSubmit={(e) => {
