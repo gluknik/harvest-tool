@@ -1,14 +1,13 @@
 import LanguageButtons from 'components/LanguageButtons'
 import LocalizationProvider from 'localization/LocalizationProvider'
-import MainBlock from 'components/MainBlock'
 import Root from 'components/Root'
+import StrategyCalculator from 'components/StrategyCalculator'
 
 const App = () => {
   return (
     <Root>
       <LocalizationProvider>
-        <MainBlock />
-        <LanguageButtons />
+        <StrategyCalculator />
       </LocalizationProvider>
     </Root>
   )
